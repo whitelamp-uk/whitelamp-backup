@@ -6,4 +6,6 @@ Originally intended for backing up personal USB "master" drives to any devices t
 
 Destination files are never deleted; instead, a trash file is updated indicating which destination files no longer exist in the source directory.
 
+Copy backup.cfg.EXAMPLE to backup.cfg (ignored by Git) and edit.
+
 
