@@ -1,7 +1,7 @@
 
 
 # Example crontab
-# * * * * * /bin/bash /home/mark/backup/whitelamp-backup/backup.bash > /home/mark/backup/whitelamp-backup/backup.last.log 2>&1
+# * * * * * /bin/bash /home/mark/backup/whitelamp-backup/backup.bash > /home/mark/backup/backup.last.log 2>&1
 
 # All variables per back-up on one line
 
