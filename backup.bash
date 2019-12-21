@@ -72,7 +72,8 @@ do
         done < "$s/$t"
         echo "$present $ts" >> "$tmp2"
     done < "$tmp"
-    cp "$tmp2" "$s/$t"
+    echo "Last back-up received: $ts" > "$s/$t"
+    cat "$tmp2" >> "$s/$t"
 
     # rsync
     echo $ts $prog -r $o "$s/" "$d/"
