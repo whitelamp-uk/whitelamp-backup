@@ -1,0 +1,12 @@
+
+
+# Example crontab
+# * * * * * /bin/bash /home/mark/backup/whitelamp-backup/backup.bash > /home/mark/backup/whitelamp-backup/backup.last.log 2>&1
+
+# All variables per back-up on one line
+
+# Source directory              # Destination directory               # Trash file           # rsync options
+
+s='/media/mark/MARKPAGE11' ;    d='/home/mark/backup/MARKPAGE11' ;    t='.backup.TRASH' ;    o=' --exclude=.Trash-* '
+
+
